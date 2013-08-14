@@ -1,0 +1,42 @@
+body {font:normal normal normal 1em/1.5 Helvetica, Arial, Verdana, Sans-serif;}
+	.wrapper { max-width:700px; margin:0 auto;}
+	.topHeader { text-align:center; margin-bottom:100px; }
+		.callOut {color:rgb(80,85,115); font:normal normal normal 2em/1 Futura, Helvetica, Arial, Verdana, Sans-serif; margin:0 auto;}
+			.shoutOut {font-size:2em; line-height:1.5; color:#ffa200;}
+	/*.section {}*/
+		.posts { margin-bottom:50px; }
+			.post {background:rgb(80,85,115); color:#fff; margin-bottom:50px;}
+				.post p {margin:0;}
+				.post a, .post a:link, .post a:visited {text-decoration:none;}
+				/*.post a:hover {}*/
+				.post img {height: auto; width:100%;}
+				/*.post blockquote {}
+				.post strong {}
+				.post em {}
+				.figCaption {}*/
+				.figCaption img { margin:0; display:block; width:100%; height:auto;}
+				.figCaption span { background:#ffa200; color:#fff; display:block; padding:4% 5%; width:90%; }
+				.description { padding:2%; text-align:center; }
+				.description span { background-image:url('img/index/logo-sprites.png'); display:inline-block; height:50px; margin:0 5px; width:50px; }
+				.amazon {background-position: 0px 0px;}
+				.backbonejs {background-position: -50px 0px;}
+				.css3 {background-position: -100px 0px;}
+				.facebook {background-position: 0px -50px;;}
+				.html5 {background-position: -50px -50px;}
+				.javascript {background-position: -100px -50px;}
+				.laravel {background-position: 0px -100px;}
+				.mysql {background-position: -50px -100px;}
+				.php {background-position: -100px -100px;}
+				.sf {background-position: 0px -150px;}
+				.twitter {background-position: -100px -150px;}
+				.python {background-position: -100px -150px;}
+				.wordpress {background-position: 0px -200px;}
+
+
+@media screen and (max-width:780px) {
+	body { font-size:0.8em; }
+		.topHeader { margin-bottom:30px; }
+	  .callOut {font-size:1.15em;}
+	  	.shoutOut {font-size:1.35em;}
+	  .post { margin-bottom:30px; }
+}
