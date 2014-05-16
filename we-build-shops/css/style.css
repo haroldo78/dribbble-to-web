@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal}
 .fr {float: right;}
 .of {overflow:hidden;}
 .bg-alt-light {background: #f5f5ff}
+	.bg-alt-padding {padding: 4em 0;}
 .bg-alt-dark {background:#163d5a; color:#fff;}
 
 /*components*/
@@ -26,7 +27,10 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal}
 		.feature p {font-size:.9em; line-height: 1.4; letter-spacing: .1px}
 
 .columns {list-style: none; padding:0;}
+.columns-narrow {width:80%; margin:0 auto;}
 	.column {float:left; line-height:1.25em;}
+	.column-half {width:49%; margin-right:1%;}
+	.column-half:last-child {margin:0; margin-left:1%;}
 	.column-small {width:33%; margin-right:2%;}
 	.column-large {width:63%; margin-left:2%;}
 		.column h5 {margin:0; margin-bottom:.625em;}
@@ -47,4 +51,6 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal}
 	.mobo-ss .description {padding:.5em 0 10em 0; width:60%;}
 	.mobo-ss h1 {font-size:1.75em; margin-bottom:1.5em;}
 
-.cloud {padding: 2em 0 2em 0;}
+.cloud {padding: 2em 0;}
+.support {padding:1em 0; background:#e85649; border-radius: 0.5em; color:#fff;}
+	.support h2 {background: #d54d41; margin:0; margin-bottom:1em; padding:.5em; color:#fff;}
