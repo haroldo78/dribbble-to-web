@@ -1,19 +1,24 @@
 body {min-height:3000px;}
 
+/*tyopgraphy*/
+h1, h2, h3, h4, h5, h6 {font-weight: normal}
+
 /*HELPERS*/
 .wrapper {max-width:65em;margin:0 auto}
 .fl {float: left;}
 .fr {float: right;}
 .of {overflow:hidden;}
+.bg-alt {background: #f5f5ff}
 
 /*components*/
 .hero {color:#fff; text-align: center; padding:9em 0;}
 	.hero-title {font-size:2.5em; line-height:1em; margin:0;}
 	.hero-subtitle {margin:0.625em;}
 
-.call-out-main {text-align:center;color:#636395;padding:2em 0 .5em 0;}
+.call-out {text-align:center;color:#636395;padding:2em 0 .5em 0;}
+.call-to-action {display:inline-block; padding: 0.5em; padding-left:0; text-decoration: none; color:#636395; font-weight:bold;}
 
-.features {padding:0;list-style: none;}
+.features {padding:0; margin-bottom:2.75em; list-style: none;}
 	.feature {float:left; width:23%; margin:0 1%; color:#636395;}
 		.feature h4 {text-transform: uppercase; margin-bottom:2em;}
 			.feature span {padding:.65em 1em; border:1px solid #636395; border-radius: 3em; margin-right:1em;}
@@ -28,7 +33,8 @@ body {min-height:3000px;}
 		.menu-bar a:hover {color:#fff;}
 
 
-.content {
-
-}
+.mobo-ss {padding-top: 4em; color:#636395;}
+	.mobo-ss .wrapper {background:transparent url(../img/iphone.jpg) bottom left no-repeat;}
+	.mobo-ss .description {padding:5.25em 0 5.25em 0; width:60%;}
+	.mobo-ss h1 {font-size:1.75em; margin-bottom:1.5em;}
 
