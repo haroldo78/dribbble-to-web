@@ -1,5 +1,3 @@
-body {min-height:3000px;}
-
 /*tyopgraphy*/
 h1, h2, h3, h4, h5, h6 {font-weight: normal}
 
@@ -54,3 +52,9 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal}
 .cloud {padding: 2em 0;}
 .support {padding:1em 0; background:#e85649; border-radius: 0.5em; color:#fff;}
 	.support h2 {background: #d54d41; margin:0; margin-bottom:1em; padding:.5em; color:#fff;}
+
+.coffee {padding: 4em 0; color:#144160;}
+	.coffee .of {margin-bottom: 1em}
+	.coffee .of img {border-radius: 4em;border: 3px #144160 solid;margin-right:1em;}
+		.coffee h2, .coffee h3 {line-height: 1em; margin:0.45em;}
+		.coffee .call-to-action {background: #636395; color:#fff; padding:1em 5em; border-radius: .5em; box-shadow: 2px 2px 2px #414173; font-weight: normal}
