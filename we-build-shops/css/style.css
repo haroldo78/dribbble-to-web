@@ -8,14 +8,15 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal}
 .fl {float: left;}
 .fr {float: right;}
 .of {overflow:hidden;}
-.bg-alt {background: #f5f5ff}
+.bg-alt-light {background: #f5f5ff}
+.bg-alt-dark {background:#163d5a; color:#fff;}
 
 /*components*/
 .hero {color:#fff; text-align: center; padding:9em 0;}
 	.hero-title {font-size:2.5em; line-height:1em; margin:0;}
 	.hero-subtitle {margin:0.625em;}
 
-.call-out {text-align:center;color:#636395;padding:2em 0 .5em 0;}
+.call-out {text-align:center;color:#636395;padding:2em 0 2em 0;}
 .call-to-action {display:inline-block; padding: 0.5em; padding-left:0; text-decoration: none; color:#636395; font-weight:bold;}
 
 .features {padding:0; margin-bottom:2.75em; list-style: none;}
@@ -23,6 +24,14 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal}
 		.feature h4 {text-transform: uppercase; margin-bottom:2em;}
 			.feature span {padding:.65em 1em; border:1px solid #636395; border-radius: 3em; margin-right:1em;}
 		.feature p {font-size:.9em; line-height: 1.4; letter-spacing: .1px}
+
+.columns {list-style: none; padding:0;}
+	.column {float:left; line-height:1.25em;}
+	.column-small {width:33%; margin-right:2%;}
+	.column-large {width:63%; margin-left:2%;}
+		.column h5 {margin:0; margin-bottom:.625em;}
+		.column h5:after {display:block; content:"_____"; margin-top:-1em;}
+		.column p {color:#fff; font-size:0.85em; margin:0;}
 
 /*layout*/
 .header {background:#636395;}
@@ -38,3 +47,4 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal}
 	.mobo-ss .description {padding:.5em 0 10em 0; width:60%;}
 	.mobo-ss h1 {font-size:1.75em; margin-bottom:1.5em;}
 
+.cloud {padding: 2em 0 2em 0;}
