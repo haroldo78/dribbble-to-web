@@ -1,10 +1,13 @@
 /*tyopgraphy*/
 h1, h2, h3, h4, h5, h6 {font-weight: normal}
+a:hover {text-decoration: underline;}
 
 /*HELPERS*/
 .wrapper {max-width:65em;margin:0 auto}
-.fl {float: left;}
-.fr {float: right;}
+@media only screen and (min-width:40em) {
+	.fl {float: left;}
+	.fr {float: right;}
+}
 .of {overflow:hidden;}
 .bg-alt-light {background: #f5f5ff}
 	.bg-alt-padding {padding: 4em 0;}
@@ -41,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal}
 		.menu-bar .logo {margin-right:3.75em;}
 		.menu-bar .nav {}
 		.menu-bar a {display:inline-block; padding:2.15em 0; margin-right:2.5em; font-size:0.9em; color:#fff; text-decoration: none}
-		.menu-bar a:hover {color:#fff;}
+		.menu-bar a:hover {color:#fff;text-decoration: underline;}
 
 
 .mobo-ss {padding-top: 4em; color:#636395;}
@@ -58,3 +61,25 @@ h1, h2, h3, h4, h5, h6 {font-weight: normal}
 	.coffee .of img {border-radius: 4em;border: 3px #144160 solid;margin-right:1em;}
 		.coffee h2, .coffee h3 {line-height: 1em; margin:0.45em;}
 		.coffee .call-to-action {background: #636395; color:#fff; padding:1em 5em; border-radius: .5em; box-shadow: 2px 2px 2px #414173; font-weight: normal}
+
+@media only screen and (max-width:48em) {
+	.wrapper { width:96%; padding:0 2%; margin:0 auto; }
+	
+	.menu-bar {text-align: center;}
+	.menu-bar .logo {margin:1em 0;}
+	.menu-bar .nav {margin: 1em 0 2em 0}
+	.nav a {padding:1%; margin:0;}
+
+	.column, .feature, .mobo-ss .description {float:none; width:100%;display:block;}
+	.column, .column-half, .column-half:last-child, .column-small, .column-large {width:100%; margin:0; margin-bottom:1em;}
+	.feature {margin-bottom:2em;}
+
+	.mobo-ss {padding:0;}
+	.mobo-ss .wrapper {background-position: bottom center}
+	.mobo-ss .description {margin-bottom: 15em;}
+	.spacer {display:none;}
+
+	.cloud {width:96%; padding:2%;}
+	.support {width:100%;padding:1em 0;}
+	.coffee {text-align:center; margin:2em 0;}
+}
