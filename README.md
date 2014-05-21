@@ -29,3 +29,5 @@ There's no particular order
 - [ ] [Muzik Landing page](https://dribbble.com/shots/1560437-Muzik-Landing-page)
 - [ ] [Nukern landing page](https://dribbble.com/shots/1558949-Nukern-landing-page)
 - [ ] [Landing Page Design](https://dribbble.com/shots/1557897-Landing-Page-Design)
+- [ ] [Book Store Concept](https://dribbble.com/shots/1561184-Book-Store-Concept)
+- [ ] [Good Mens Goods](https://dribbble.com/shots/1562030-Good-Mens-Goods)
