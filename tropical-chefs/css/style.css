@@ -1,6 +1,6 @@
 * {box-sizing: border-box;}
 .grid {	margin:0 auto; width:100% }
-.grid_fixed { max-width:90.0625em }
+.grid_fixed { max-width:90em }
 .fl { float:left }
 .fr { float:right }
 .of { overflow:hidden }
@@ -18,3 +18,35 @@
 .top-navigation a {	padding:0 3em 0 0; text-decoration:none; color:#fff; font-weight: bold }
 .top-navigation a:hover { text-decoration: underline }
 .top-navigation a:first-child { margin-left:2em }
+
+.slider-header a {height:20em;}
+@media only screen and (min-width:30em) {
+	.slider-header a {height:25em;}
+}
+@media only screen and (min-width:30em) {
+	.slider-header a {height:35em;}
+}
+@media only screen and (min-width:64em) {
+	.slider-header a {height:45em;}
+}
+@media only screen and (min-width:90em) {
+	.slider-header a {height:50em;}
+}
+@media only screen and (min-width:120em) {
+	.slider-header a {height:68em;}
+}
+
+.search-section {
+	border-bottom: 2px #eee solid
+}
+.serch-recipe {
+	text-align:center;
+	padding:2.50em 0;
+}
+.big-input {
+	padding:1em;
+	width:57%;
+	margin:0 auto;
+	border:2px #eee solid;
+	border-radius: 0.25em
+}
