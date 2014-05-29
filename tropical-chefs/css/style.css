@@ -1,6 +1,6 @@
 * {box-sizing: border-box;}
 .grid {	margin:0 auto; width:100% }
-.grid_fixed { max-width:90em }
+.grid_fixed { max-width:90% }
 .fl { float:left }
 .fr { float:right }
 .of { overflow:hidden }
@@ -28,6 +28,9 @@
 }
 @media only screen and (min-width:64em) {
 	.slider-header a {height:45em;}
+}
+@media only screen and (min-width:80em) {
+	.slider-header a {height:47em;}
 }
 @media only screen and (min-width:90em) {
 	.slider-header a {height:50em;}
