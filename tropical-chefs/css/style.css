@@ -7,10 +7,12 @@
 
 .row { overflow: hidden }
 
-*[class*=size_] { display:block; float:left }
-*[class*=size_] > * { padding-right:1.25em }
+*[class*=size_], *[class*=p_] { display:block; float:left }
+*[class*=size_] > .content, *[class*=p_] > .content { padding-right:1.25em }
 
 .size_1 { width: 6.25% } .size_2 { width: 12.50% } .size_3 { width: 18.75% } .size_4 { width: 25.00% } .size_5 { width: 31.25% } .size_6 { width: 37.50% } .size_7 { width: 43.25% } .size_8 { width: 50.00% } .size_9 { width: 56.25% } .size_10 { width: 62.50% } .size_11 { width: 68.75% } .size_12 { width: 75.00% } .size_13 { width: 81.25% } .size_14 { width: 87.25% } .size_15 { width: 93.75% } .size_16 { width: 100% }
+
+.p_1_3 {width: 33%; }
 
 .nav { position:absolute; top:0; left:0; width:100%; z-index:100; }
 
@@ -20,36 +22,22 @@
 .top-navigation a:first-child { margin-left:2em }
 
 .slider-header a {height:20em;}
-@media only screen and (min-width:30em) {
-	.slider-header a {height:25em;}
-}
-@media only screen and (min-width:40em) {
-	.slider-header a {height:35em;}
-}
-@media only screen and (min-width:64em) {
-	.slider-header a {height:45em;}
-}
-@media only screen and (min-width:80em) {
-	.slider-header a {height:47em;}
-}
-@media only screen and (min-width:90em) {
-	.slider-header a {height:50em;}
-}
-@media only screen and (min-width:120em) {
-	.slider-header a {height:68em;}
-}
+@media only screen and (min-width:30em) { .slider-header a {height:25em;} }
+@media only screen and (min-width:40em) { .slider-header a {height:35em;} }
+@media only screen and (min-width:64em) { .slider-header a {height:45em;} }
+@media only screen and (min-width:80em) { .slider-header a {height:47em;} }
+@media only screen and (min-width:90em) { .slider-header a {height:50em;} }
+@media only screen and (min-width:120em) { .slider-header a {height:68em;} }
 
-.search-section {
-	border-bottom: 2px #eee solid
-}
-.serch-recipe {
-	text-align:center;
-	padding:2.50em 0;
-}
-.big-input {
-	padding:1em;
-	width:57%;
-	margin:0 auto;
-	border:2px #eee solid;
-	border-radius: 0.25em
-}
+.search-section { border-bottom: 2px #eee solid }
+.serch-recipe { text-align:center; padding:2.50em 0 }
+.big-input { padding:1em; width:57%; margin:0 auto; border:2px #eee solid; border-radius:  0.25em }
+
+.browse-recipes { text-align: center; padding: 4.25em 0 5em 0; background:#eee; }
+.browse-by { display: inline-block; float:none; margin:0 }
+.browse-by img {border-radius:50%; padding:0 }
+.browse-by-bordered { border:1px solid #ddd; border-top:0; border-bottom: 0 }
+.browse-by-title { font-size: 1.45em; color:#333 }
+.browse-by-description { font-size:1.25em; color:#888 }
+.browse-by-link { font-size:1.15em; color:orange; text-decoration: none }
+.browse-by-link:hover {text-decoration: underline }
